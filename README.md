@@ -16,12 +16,26 @@ In this project, I worked with a large supervised dataset of English IMDB Movie 
 
 ### Classifiers
 
-Evaluated four classifiers:
-
 **1.Logistic Regression**
 
 **2.Decision Tree Classifier**
 
-3.Random Forest Classifier
+**3.Random Forest Classifier**
 
-4.Multinomial Naive Bayes Classifier
+**4.Multinomial Naive Bayes Classifier**
+
+### Base Models
+
+First implemented the base models for each combination of text representation strategy and classifier without any tuning. I used evaluation metrics such as accuracy, precision, recall, and F1-score to compare the performance of these models.
+
+### Tuning Models
+
+Then I observed that the models needed tuning to improve their performance. I used grid search and cross-validation techniques to tune the hyperparameters of each model.
+
+### Comparing Models
+
+Compared the performance of each pair of models using hypothesis testing. I used a significance level of 0.05 and calculated the test statistic and critical value to determine whether there was a statistically significant difference in performance between of the two models.
+
+### Conclusion
+
+Based on our evaluation metrics and hypothesis testing, I selected LR, MNB with TF-IDF features are the best-performing models and then RFC gives better results with TF-IDF for sentiment analysis on the IMDB Movie reviews dataset.
