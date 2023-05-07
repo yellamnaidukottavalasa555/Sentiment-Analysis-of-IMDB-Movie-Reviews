@@ -38,4 +38,4 @@ Compared the performance of each pair of models using hypothesis testing. I used
 
 ### Conclusion
 
-Based on our evaluation metrics and hypothesis testing, I selected LR, MNB with TF-IDF features are the best-performing models and then RFC gives better results with TF-IDF for sentiment analysis on the IMDB Movie reviews dataset.
+Based on evaluation metrics and hypothesis testing, I selected LR, MNB with TF-IDF features are the best-performing models and then RFC gives better results with TF-IDF for sentiment analysis on the IMDB Movie reviews dataset.
